@@ -46,3 +46,4 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
